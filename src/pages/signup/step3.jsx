@@ -28,7 +28,7 @@ function CreateAccountStep3() {
             text="Verification code"
             type="text"
           />
-          <p className="text-twitter-blue flex justify-end text-sm font-normal leading-normal">
+          <p className="flex justify-end text-sm font-normal leading-normal text-twitter-blue">
             {`Didn't receive a code?`}
           </p>
         </div>

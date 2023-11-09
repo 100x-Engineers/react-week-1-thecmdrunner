@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function TweetMain() {
   return (
-    <main className="bg-neutral-1000 flex w-full flex-grow items-center justify-center">
+    <main className="flex w-full flex-grow items-center justify-center bg-neutral-1000">
       <section className="flex w-full flex-col gap-10 px-7">
         <section className="flex flex-col gap-3">
           <Heading>Happening now</Heading>

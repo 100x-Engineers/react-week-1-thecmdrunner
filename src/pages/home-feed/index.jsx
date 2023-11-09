@@ -16,7 +16,7 @@ function Home() {
 
   return (
     <div className="bg-neutral-1000">
-      <header className="bg-neutral-1000 top-0 flex w-full flex-col items-center">
+      <header className="top-0 flex w-full flex-col items-center bg-neutral-1000">
         <section className="flex w-full items-center border-b border-neutral-700 px-4 py-5">
           <ProfileAvatar />
           <Header />

@@ -10,7 +10,7 @@ function TweetInput({ tweetText, setTweetText }) {
   return (
     <div className="flex w-full items-center justify-center gap-3 px-4 py-2">
       <img
-        className="rounded-7xl h-9 w-9 flex-shrink-0 self-start"
+        className="h-9 w-9 flex-shrink-0 self-start rounded-7xl"
         src={ProfileAvatar}
       />
       <textarea

@@ -48,7 +48,7 @@ function ProfileHeader() {
               <a
                 rel="noreferrer"
                 target="_blank"
-                className="text-twitter-blue max-w-[140px] flex-wrap truncate text-base font-normal leading-normal lg:hidden"
+                className="max-w-[140px] flex-wrap truncate text-base font-normal leading-normal text-twitter-blue lg:hidden"
                 href="https://pranava.dev/"
               >
                 pranava.dev
@@ -56,7 +56,7 @@ function ProfileHeader() {
               <a
                 rel="noreferrer"
                 target="_blank"
-                className="text-twitter-blue hidden text-base font-normal leading-normal lg:flex"
+                className="hidden text-base font-normal leading-normal text-twitter-blue lg:flex"
                 href="https://pranava.dev/"
               >
                 pranava.dev

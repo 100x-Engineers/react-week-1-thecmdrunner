@@ -26,8 +26,8 @@ const YEARS = Array.from(
 const DatePicker = ({ handleInputChange }) => {
   return (
     <section className="grid w-full grid-cols-4 gap-3">
-      <fieldset className="focus-within:border-twitter-blue group col-span-2 rounded border border-neutral-500 px-3 pb-4 pt-2">
-        <legend className="group-focus-within:text-twitter-blue text-xs font-medium text-neutral-500">
+      <fieldset className="group col-span-2 rounded border border-neutral-500 px-3 pb-4 pt-2 focus-within:border-twitter-blue">
+        <legend className="text-xs font-medium text-neutral-500 group-focus-within:text-twitter-blue">
           <div className="px-1">Month</div>
         </legend>
         <select
@@ -48,8 +48,8 @@ const DatePicker = ({ handleInputChange }) => {
         </select>
         {/* <input type="text" placeholder="Select month" class="w-full bg-transparent focus:outline-none text-neutral-50 placeholder:text-neutral-500"> */}
       </fieldset>
-      <fieldset className="focus-within:border-twitter-blue group rounded border border-neutral-500 px-3 pb-4 pt-2">
-        <legend className="group-focus-within:text-twitter-blue text-xs font-medium text-neutral-500">
+      <fieldset className="group rounded border border-neutral-500 px-3 pb-4 pt-2 focus-within:border-twitter-blue">
+        <legend className="text-xs font-medium text-neutral-500 group-focus-within:text-twitter-blue">
           <div className="px-1">Day</div>
         </legend>
         <select
@@ -63,8 +63,8 @@ const DatePicker = ({ handleInputChange }) => {
           })}
         </select>
       </fieldset>
-      <fieldset className="focus-within:border-twitter-blue group rounded border border-neutral-500 px-3 pb-4 pt-2">
-        <legend className="group-focus-within:text-twitter-blue text-xs font-medium text-neutral-500">
+      <fieldset className="group rounded border border-neutral-500 px-3 pb-4 pt-2 focus-within:border-twitter-blue">
+        <legend className="text-xs font-medium text-neutral-500 group-focus-within:text-twitter-blue">
           <div className="px-1">Year</div>
         </legend>
         <select

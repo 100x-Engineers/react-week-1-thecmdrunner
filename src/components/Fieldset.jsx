@@ -17,8 +17,8 @@ function Fieldset({ text, type, inputValue, onInputChange, ...rest }) {
     setShowPassword(!showPassword);
   };
   return (
-    <fieldset className="focus-within:border-twitter-blue group flex items-center self-stretch rounded border border-solid border-neutral-500 px-3 py-4 pt-2">
-      <legend className="group-focus-within:text-twitter-blue text-xs font-medium not-italic leading-normal text-neutral-500">
+    <fieldset className="group flex items-center self-stretch rounded border border-solid border-neutral-500 px-3 py-4 pt-2 focus-within:border-twitter-blue">
+      <legend className="text-xs font-medium not-italic leading-normal text-neutral-500 group-focus-within:text-twitter-blue">
         <span className="px-2">{text}</span>
       </legend>
       <input

@@ -17,7 +17,7 @@ function Tabs() {
         >
           For you
         </label>
-        <div className="rounded-2.5xl bg-twitter-blue hidden h-1 w-14 peer-checked/foryou_tab:block" />
+        <div className="rounded-2.5xl hidden h-1 w-14 bg-twitter-blue peer-checked/foryou_tab:block" />
       </div>
       <div className="flex w-full flex-col items-center hover:bg-neutral-900">
         <input
@@ -29,11 +29,11 @@ function Tabs() {
         />
         <label
           htmlFor="following"
-          className="border-twitter-blue block w-full cursor-pointer py-4 text-center font-medium text-neutral-400 transition-all duration-100 peer-checked/following:font-bold peer-checked/following:text-neutral-50"
+          className="block w-full cursor-pointer border-twitter-blue py-4 text-center font-medium text-neutral-400 transition-all duration-100 peer-checked/following:font-bold peer-checked/following:text-neutral-50"
         >
           Following
         </label>
-        <div className="rounded-2.5xl bg-twitter-blue hidden h-1 w-[4.3rem] peer-checked/following:block" />
+        <div className="rounded-2.5xl hidden h-1 w-[4.3rem] bg-twitter-blue peer-checked/following:block" />
       </div>
     </div>
   );
