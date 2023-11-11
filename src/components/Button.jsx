@@ -1,13 +1,10 @@
 import { cn } from '@/utils';
-import PropTypes from 'prop-types';
 
-function Button({
-  children = 'Add your Text',
-  variant = 'default',
-  type,
-  size = 'full',
-  ...rest
-}) {
+/**
+ * @param {{children: React.ReactNode;   size: 'sm' | 'md' | 'full';   variant: 'default' | 'outline' | 'solid' | 'icon';   type: 'primary' | 'secondary';}} props */
+function Button(props) {
+  const { children, size, variant, type, ...rest } = props;
+
   const variantStyles = {
     default:
       'w-full px-6 py-2 bg-neutral-50 text-neutral-1000 hover:bg-neutral-200 shadow-button backdrop-blur-xl disabled:cursor-not-allowed disabled:bg-neutral-50  disabled:opacity-50',
@@ -41,12 +38,5 @@ function Button({
     </button>
   );
 }
-
-Button.propTypes = {
-  children: PropTypes.node.isRequired,
-  size: PropTypes.oneOf(['sm', 'md', 'full']),
-  variant: PropTypes.oneOf(['default', 'outline', 'solid', 'icon']),
-  type: PropTypes.oneOf(['primary', 'secondary']),
-};
 
 export default Button;
